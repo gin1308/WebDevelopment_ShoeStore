@@ -1,0 +1,160 @@
+c:\users\gin\source\repos\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\PhatTrienWeb_Project_NguyenThanhLoc.dll.config
+c:\users\gin\source\repos\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\PhatTrienWeb_Project_NguyenThanhLoc.dll
+c:\users\gin\source\repos\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\PhatTrienWeb_Project_NguyenThanhLoc.pdb
+c:\users\gin\source\repos\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\csc.exe
+c:\users\gin\source\repos\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\csc.exe.config
+c:\users\gin\source\repos\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\csc.rsp
+c:\users\gin\source\repos\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\csi.exe
+c:\users\gin\source\repos\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\csi.exe.config
+c:\users\gin\source\repos\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\csi.rsp
+c:\users\gin\source\repos\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\gin\source\repos\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\gin\source\repos\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+c:\users\gin\source\repos\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\gin\source\repos\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+c:\users\gin\source\repos\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\gin\source\repos\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\gin\source\repos\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+c:\users\gin\source\repos\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+c:\users\gin\source\repos\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\Microsoft.Managed.Core.targets
+c:\users\gin\source\repos\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\gin\source\repos\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\System.AppContext.dll
+c:\users\gin\source\repos\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\System.Collections.Immutable.dll
+c:\users\gin\source\repos\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\System.Console.dll
+c:\users\gin\source\repos\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+c:\users\gin\source\repos\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\System.Diagnostics.StackTrace.dll
+c:\users\gin\source\repos\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\System.IO.Compression.dll
+c:\users\gin\source\repos\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\System.IO.FileSystem.dll
+c:\users\gin\source\repos\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\System.IO.FileSystem.Primitives.dll
+c:\users\gin\source\repos\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\System.IO.Pipes.AccessControl.dll
+c:\users\gin\source\repos\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\System.IO.Pipes.dll
+c:\users\gin\source\repos\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\gin\source\repos\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\System.Security.AccessControl.dll
+c:\users\gin\source\repos\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\System.Security.Claims.dll
+c:\users\gin\source\repos\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+c:\users\gin\source\repos\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\System.Security.Cryptography.Encoding.dll
+c:\users\gin\source\repos\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\System.Security.Cryptography.Primitives.dll
+c:\users\gin\source\repos\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+c:\users\gin\source\repos\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\System.Security.Principal.Windows.dll
+c:\users\gin\source\repos\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\System.Text.Encoding.CodePages.dll
+c:\users\gin\source\repos\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\System.ValueTuple.dll
+c:\users\gin\source\repos\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\System.Xml.ReaderWriter.dll
+c:\users\gin\source\repos\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\System.Xml.XmlDocument.dll
+c:\users\gin\source\repos\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\System.Xml.XPath.dll
+c:\users\gin\source\repos\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\System.Xml.XPath.XDocument.dll
+c:\users\gin\source\repos\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\vbc.exe
+c:\users\gin\source\repos\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\vbc.exe.config
+c:\users\gin\source\repos\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\vbc.rsp
+c:\users\gin\source\repos\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\VBCSCompiler.exe
+c:\users\gin\source\repos\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\VBCSCompiler.exe.config
+c:\users\gin\source\repos\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\Antlr3.Runtime.dll
+c:\users\gin\source\repos\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\gin\source\repos\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\Microsoft.Web.Infrastructure.dll
+c:\users\gin\source\repos\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\Newtonsoft.Json.dll
+c:\users\gin\source\repos\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\System.Web.Helpers.dll
+c:\users\gin\source\repos\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\System.Web.Mvc.dll
+c:\users\gin\source\repos\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\System.Web.Optimization.dll
+c:\users\gin\source\repos\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\System.Web.Razor.dll
+c:\users\gin\source\repos\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\System.Web.WebPages.Deployment.dll
+c:\users\gin\source\repos\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\System.Web.WebPages.dll
+c:\users\gin\source\repos\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\System.Web.WebPages.Razor.dll
+c:\users\gin\source\repos\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\WebGrease.dll
+c:\users\gin\source\repos\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\System.Web.Helpers.xml
+c:\users\gin\source\repos\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\System.Web.Mvc.xml
+c:\users\gin\source\repos\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\System.Web.Optimization.xml
+c:\users\gin\source\repos\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\System.Web.Razor.xml
+c:\users\gin\source\repos\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\System.Web.WebPages.xml
+c:\users\gin\source\repos\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\System.Web.WebPages.Deployment.xml
+c:\users\gin\source\repos\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\System.Web.WebPages.Razor.xml
+c:\users\gin\source\repos\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\Newtonsoft.Json.xml
+c:\users\gin\source\repos\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\Antlr3.Runtime.pdb
+c:\users\gin\source\repos\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\gin\source\repos\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\obj\Debug\PhatTrienWeb_Project_NguyenThanhLoc.csprojAssemblyReference.cache
+c:\users\gin\source\repos\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\obj\Debug\PhatTrienWeb_Project_NguyenThanhLoc.csproj.CoreCompileInputs.cache
+c:\users\gin\source\repos\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\obj\Debug\PhatTrienWeb_Project_NguyenThanhLoc.csproj.CopyComplete
+c:\users\gin\source\repos\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\obj\Debug\PhatTrienWeb_Project_NguyenThanhLoc.dll
+c:\users\gin\source\repos\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\obj\Debug\PhatTrienWeb_Project_NguyenThanhLoc.pdb
+C:\Users\Gin\source\repos\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\EntityFramework.dll
+C:\Users\Gin\source\repos\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\EntityFramework.SqlServer.dll
+C:\Users\Gin\source\repos\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\EntityFramework.xml
+C:\Users\Gin\source\repos\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\EntityFramework.SqlServer.xml
+C:\Users\Gin\Documents\Visual Studio 2017\Projects\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\PhatTrienWeb_Project_NguyenThanhLoc.dll.config
+C:\Users\Gin\Documents\Visual Studio 2017\Projects\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\PhatTrienWeb_Project_NguyenThanhLoc.dll
+C:\Users\Gin\Documents\Visual Studio 2017\Projects\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\PhatTrienWeb_Project_NguyenThanhLoc.pdb
+C:\Users\Gin\Documents\Visual Studio 2017\Projects\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\csc.exe
+C:\Users\Gin\Documents\Visual Studio 2017\Projects\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\csc.exe.config
+C:\Users\Gin\Documents\Visual Studio 2017\Projects\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\csc.rsp
+C:\Users\Gin\Documents\Visual Studio 2017\Projects\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\csi.exe
+C:\Users\Gin\Documents\Visual Studio 2017\Projects\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\csi.exe.config
+C:\Users\Gin\Documents\Visual Studio 2017\Projects\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\csi.rsp
+C:\Users\Gin\Documents\Visual Studio 2017\Projects\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Gin\Documents\Visual Studio 2017\Projects\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Gin\Documents\Visual Studio 2017\Projects\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Gin\Documents\Visual Studio 2017\Projects\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Gin\Documents\Visual Studio 2017\Projects\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Gin\Documents\Visual Studio 2017\Projects\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Gin\Documents\Visual Studio 2017\Projects\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Gin\Documents\Visual Studio 2017\Projects\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Gin\Documents\Visual Studio 2017\Projects\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Gin\Documents\Visual Studio 2017\Projects\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\Gin\Documents\Visual Studio 2017\Projects\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Gin\Documents\Visual Studio 2017\Projects\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\System.AppContext.dll
+C:\Users\Gin\Documents\Visual Studio 2017\Projects\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Gin\Documents\Visual Studio 2017\Projects\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\System.Console.dll
+C:\Users\Gin\Documents\Visual Studio 2017\Projects\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Gin\Documents\Visual Studio 2017\Projects\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Gin\Documents\Visual Studio 2017\Projects\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\System.IO.Compression.dll
+C:\Users\Gin\Documents\Visual Studio 2017\Projects\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Gin\Documents\Visual Studio 2017\Projects\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Gin\Documents\Visual Studio 2017\Projects\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\System.IO.Pipes.AccessControl.dll
+C:\Users\Gin\Documents\Visual Studio 2017\Projects\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Gin\Documents\Visual Studio 2017\Projects\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Gin\Documents\Visual Studio 2017\Projects\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Gin\Documents\Visual Studio 2017\Projects\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\System.Security.Claims.dll
+C:\Users\Gin\Documents\Visual Studio 2017\Projects\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Gin\Documents\Visual Studio 2017\Projects\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Gin\Documents\Visual Studio 2017\Projects\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Gin\Documents\Visual Studio 2017\Projects\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Gin\Documents\Visual Studio 2017\Projects\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Gin\Documents\Visual Studio 2017\Projects\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Gin\Documents\Visual Studio 2017\Projects\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\System.ValueTuple.dll
+C:\Users\Gin\Documents\Visual Studio 2017\Projects\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Gin\Documents\Visual Studio 2017\Projects\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Gin\Documents\Visual Studio 2017\Projects\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Gin\Documents\Visual Studio 2017\Projects\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Gin\Documents\Visual Studio 2017\Projects\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\vbc.exe
+C:\Users\Gin\Documents\Visual Studio 2017\Projects\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\vbc.exe.config
+C:\Users\Gin\Documents\Visual Studio 2017\Projects\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\vbc.rsp
+C:\Users\Gin\Documents\Visual Studio 2017\Projects\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\VBCSCompiler.exe
+C:\Users\Gin\Documents\Visual Studio 2017\Projects\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Gin\Documents\Visual Studio 2017\Projects\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\Antlr3.Runtime.dll
+C:\Users\Gin\Documents\Visual Studio 2017\Projects\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\EntityFramework.dll
+C:\Users\Gin\Documents\Visual Studio 2017\Projects\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\EntityFramework.SqlServer.dll
+C:\Users\Gin\Documents\Visual Studio 2017\Projects\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Gin\Documents\Visual Studio 2017\Projects\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Gin\Documents\Visual Studio 2017\Projects\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\Newtonsoft.Json.dll
+C:\Users\Gin\Documents\Visual Studio 2017\Projects\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\System.Web.Helpers.dll
+C:\Users\Gin\Documents\Visual Studio 2017\Projects\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\System.Web.Mvc.dll
+C:\Users\Gin\Documents\Visual Studio 2017\Projects\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\System.Web.Optimization.dll
+C:\Users\Gin\Documents\Visual Studio 2017\Projects\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\System.Web.Razor.dll
+C:\Users\Gin\Documents\Visual Studio 2017\Projects\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Gin\Documents\Visual Studio 2017\Projects\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\System.Web.WebPages.dll
+C:\Users\Gin\Documents\Visual Studio 2017\Projects\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\System.Web.WebPages.Razor.dll
+C:\Users\Gin\Documents\Visual Studio 2017\Projects\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\WebGrease.dll
+C:\Users\Gin\Documents\Visual Studio 2017\Projects\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\EntityFramework.xml
+C:\Users\Gin\Documents\Visual Studio 2017\Projects\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\EntityFramework.SqlServer.xml
+C:\Users\Gin\Documents\Visual Studio 2017\Projects\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\System.Web.Helpers.xml
+C:\Users\Gin\Documents\Visual Studio 2017\Projects\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\System.Web.Mvc.xml
+C:\Users\Gin\Documents\Visual Studio 2017\Projects\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\System.Web.Optimization.xml
+C:\Users\Gin\Documents\Visual Studio 2017\Projects\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\System.Web.Razor.xml
+C:\Users\Gin\Documents\Visual Studio 2017\Projects\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\System.Web.WebPages.xml
+C:\Users\Gin\Documents\Visual Studio 2017\Projects\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Gin\Documents\Visual Studio 2017\Projects\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\System.Web.WebPages.Razor.xml
+C:\Users\Gin\Documents\Visual Studio 2017\Projects\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\Newtonsoft.Json.xml
+C:\Users\Gin\Documents\Visual Studio 2017\Projects\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\Antlr3.Runtime.pdb
+C:\Users\Gin\Documents\Visual Studio 2017\Projects\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Gin\Documents\Visual Studio 2017\Projects\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\obj\Debug\PhatTrienWeb_Project_NguyenThanhLoc.csprojAssemblyReference.cache
+C:\Users\Gin\Documents\Visual Studio 2017\Projects\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\obj\Debug\PhatTrienWeb_Project_NguyenThanhLoc.csproj.CoreCompileInputs.cache
+C:\Users\Gin\Documents\Visual Studio 2017\Projects\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\obj\Debug\PhatTrienWeb_Project_NguyenThanhLoc.csproj.CopyComplete
+C:\Users\Gin\Documents\Visual Studio 2017\Projects\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\obj\Debug\PhatTrienWeb_Project_NguyenThanhLoc.dll
+C:\Users\Gin\Documents\Visual Studio 2017\Projects\PhatTrienWeb_Project_NguyenThanhLoc\PhatTrienWeb_Project_NguyenThanhLoc\obj\Debug\PhatTrienWeb_Project_NguyenThanhLoc.pdb

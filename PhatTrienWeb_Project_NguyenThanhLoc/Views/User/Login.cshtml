@@ -1,0 +1,156 @@
+﻿@model PhatTrienWeb_Project_NguyenThanhLoc.Models.RegisterModel
+
+@{
+    ViewBag.Title = "Register";
+
+}
+
+@section Slider {
+    <div id="templatemo_slider">
+
+        <div id="latest_product_slider">
+
+            <div id="SlideItMoo_outer">
+                <div id="SlideItMoo_inner">
+                    <div id="SlideItMoo_items">
+                        <div class="SlideItMoo_element">
+                            <a href="#">
+                                <img src="~/images/templatemo_product_01.png" alt="product 1" />
+                            </a>
+
+                        </div>
+                        <div class="SlideItMoo_element">
+                            <a href="#">
+                                <img src="~/images/templatemo_product_02.png" alt="product 2" />
+                            </a>
+
+                        </div>
+                        <div class="SlideItMoo_element">
+                            <a href="#">
+                                <img src="~/images/templatemo_product_03.png" alt="product 3" />
+                            </a>
+
+                        </div>
+                        <div class="SlideItMoo_element">
+                            <a href="#">
+                                <img src="~/images/templatemo_product_04.png" alt="product 4" />
+                            </a>
+
+                        </div>
+                        <div class="SlideItMoo_element">
+                            <a href="#">
+                                <img src="~/images/templatemo_product_05.png" alt="product 5" />
+                            </a>
+
+                        </div>
+                        <div class="SlideItMoo_element">
+                            <a href="#">
+                                <img src="~/images/templatemo_product_06.png" alt="product 6" />
+                            </a>
+
+                        </div>
+                        <div class="SlideItMoo_element">
+                            <a href="#">
+                                <img src="~/images/templatemo_product_07.png" alt="product 7" />
+                            </a>
+                        </div>
+                        <div class="SlideItMoo_element">
+                            <a href="#">
+                                <img src="~/images/templatemo_product_08.png" alt="product 8" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div> <!-- end of latest_product_slider -->
+
+    </div> <!-- end of templatemo_slider -->
+
+}
+
+@section Account {
+    <li><a href="@Url.Action("Register", "User")">Register</a></li>
+}
+
+<style>
+    /* Add padding to containers */
+    .text-danger {
+        color: red;
+    }
+
+    .container {
+        padding: 15px;
+        background-color: white;
+    }
+
+    /* Full-width input fields */
+    input[type=text], input[type=password], input[type=email], input[type=tel], input[type=date] {
+        width: 96%;
+        padding: 10px;
+        margin: 5px 0 10px 0;
+        display: inline-block;
+    }
+
+    /* Overwrite default styles of hr */
+    hr {
+        border: 1px solid #f1f1f1;
+        margin-bottom: 25px;
+    }
+
+    /* Set a style for the submit button */
+    .registerbtn {
+        background-color: #128EB5;
+        color: white;
+        padding: 16px 10px;
+        margin: 8px 0;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        opacity: 0.9;
+    }
+
+        .registerbtn:hover {
+            opacity: 1;
+        }
+
+    /* Add a blue text color to links */
+    a {
+        color: dodgerblue;
+    }
+
+    /* Set a grey background color and center the text of the "sign in" section */
+    .signin {
+        background-color: #f1f1f1;
+        text-align: center;
+    }
+</style>
+
+<div class="content_section">
+    <h2>Sign In</h2>
+
+    <form action="Login" method="post" class="form-horizontal" role="form">
+        <div class="container">
+
+            <h1>Log in with your account.</h1>
+            <p>Please fill in this form to sign in.</p>
+            <hr>
+            @Html.ValidationSummary("", new { @class = "text-danger" })
+            <div>
+                <label for="Username"><b>Username</b></label>
+                <input type="text" placeholder="Enter Username" name="Username" id="username">
+                @Html.ValidationMessageFor(m => m.UserName, "", new { @class = "text-danger" })
+            </div>
+
+            <div>
+                <label for="Password"><b>Password</b></label>
+                <input type="password" placeholder="Enter Password" name="Password" id="password">
+                @Html.ValidationMessageFor(m => m.Password, "", new { @class = "text-danger" })
+            </div>
+
+            <hr>
+
+            <button type="submit" class="registerbtn">Sign In</button>
+        </div>
+    </form>
+</div>

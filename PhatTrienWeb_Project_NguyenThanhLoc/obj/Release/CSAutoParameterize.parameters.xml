@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="webproject-Web.config Connection String" description="webproject Connection String used in web.config by the application to access the database." defaultValue="data source=den1.mssql8.gear.host;initial catalog=shoestoreproject;persist security info=True;user id=shoestoreproject;password=Rw5JD3dp?1?5;MultipleActiveResultSets=True;App=EntityFramework" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Gin\\Documents\\Visual\ Studio\ 2017\\Projects\\PhatTrienWeb_Project_NguyenThanhLoc\\PhatTrienWeb_Project_NguyenThanhLoc\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='webproject']/@connectionString" />
+  </parameter>
+</parameters>

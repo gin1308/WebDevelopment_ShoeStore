@@ -1,0 +1,148 @@
+﻿@{
+    ViewBag.Title = "Detail";
+}
+
+@section Slider {
+    <div id="templatemo_slider">
+
+        <div id="latest_product_slider">
+
+            <div id="SlideItMoo_outer">
+                <div id="SlideItMoo_inner">
+                    <div id="SlideItMoo_items">
+                        <div class="SlideItMoo_element">
+                            <a href="#">
+                                <img src="~/images/templatemo_product_01.png" alt="product 1" />
+                            </a>
+
+                        </div>
+                        <div class="SlideItMoo_element">
+                            <a href="#">
+                                <img src="~/images/templatemo_product_02.png" alt="product 2" />
+                            </a>
+
+                        </div>
+                        <div class="SlideItMoo_element">
+                            <a href="#">
+                                <img src="~/images/templatemo_product_03.png" alt="product 3" />
+                            </a>
+
+                        </div>
+                        <div class="SlideItMoo_element">
+                            <a href="#">
+                                <img src="~/images/templatemo_product_04.png" alt="product 4" />
+                            </a>
+
+                        </div>
+                        <div class="SlideItMoo_element">
+                            <a href="#">
+                                <img src="~/images/templatemo_product_05.png" alt="product 5" />
+                            </a>
+
+                        </div>
+                        <div class="SlideItMoo_element">
+                            <a href="#">
+                                <img src="~/images/templatemo_product_06.png" alt="product 6" />
+                            </a>
+
+                        </div>
+                        <div class="SlideItMoo_element">
+                            <a href="#">
+                                <img src="~/images/templatemo_product_07.png" alt="product 7" />
+                            </a>
+                        </div>
+                        <div class="SlideItMoo_element">
+                            <a href="#">
+                                <img src="~/images/templatemo_product_08.png" alt="product 8" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div> <!-- end of latest_product_slider -->
+
+    </div> <!-- end of templatemo_slider -->
+
+}
+
+<div class="content_section">
+
+    <h2>Product Details</h2>
+
+    @model PhatTrienWeb_Project_NguyenThanhLoc.Models.SanPham
+    <div class="product_box margin_r40">
+        <div class="image_wrapper" href="#"><img style="width:240px; height:120px" src="@Model.Anh" /></div>
+        <h3>@Model.TenSP</h3>
+    </div>
+
+    <div class="col col_13 no_margin_right">
+        <table>
+            <tr>
+                <td height="30" width="160">Price:</td>
+                <td>@Model.Gia $</td>
+            </tr>
+            <tr>
+                <td height="30">Availability:</td>
+                <td>In Stock</td>
+            </tr>
+            <tr>
+                <td height="30">Model:</td>
+                <td>100% Authentic</td>
+            </tr>
+            <tr>
+                <td height="30">Product Code:</td>
+                <td>@Model.MaSP</td>
+            </tr>
+            <tr>
+                <td height="30">Quantity</td>
+                <td>@Model.SoLuong</td>
+            </tr>
+            <tr>
+                <td height="30"><a href="@Url.Action("AddItem", "Cart", new { productID = Model.MaSP, image = Model.Anh, quantity = 1, name = Model.TenSP, price = Model.Gia })" class="glyphicon-shopping-cart">Add to Cart</a></td>
+                <td><a href="@Url.Action("Index", "Home")">Back to list</a></td>
+            </tr>
+        </table>
+        <div class="cleaner h20"></div>
+
+    </div>
+
+    <div class="cleaner_h30"></div>
+
+    <h3><strong>Product Description</strong></h3>
+    <p>@Model.MoTa</p>
+
+    <div class="cleaner"></div>
+
+    <div class="cleaner_h40"></div>
+
+</div>
+
+
+
+@*<h4>Other Products</h4>
+
+    <div class="product_box margin_r40">
+
+        <div class="image_wrapper"><a href="#"><img src="~/images/templatemo_image_01.jpg" alt="product" /></a></div>
+        <h3>Phasellus eget lorem</h3>
+        <p>Nullam scelerisque odio ante, in facilisis mauris. Sed justo quam, sollicitudin vitae.</p>
+        <p class="price">Price: $250</p>
+        <a href="#">Detail</a> | <a href="#">Buy Now</a>
+
+    </div>
+
+    <div class="product_box">
+
+        <div class="image_wrapper"><a href="#"><img src="~/images/templatemo_image_02.jpg" alt="product" /></a></div>
+        <h3>Aenean magna felis</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur dictum ultricies purus.</p>
+        <p class="price">Price: $350</p>
+        <a href="#">Detail</a> | <a href="#">Buy Now</a>
+
+    </div>
+
+    <a href="#" class="float_r">View all</a>
+
+    <div class="cleaner"></div>
+    <div class="cleaner"></div>*@

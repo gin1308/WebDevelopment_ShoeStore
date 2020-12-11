@@ -1,0 +1,11 @@
+﻿@model List<PhatTrienWeb_Project_NguyenThanhLoc.Models.LoaiSP>
+
+<div class="sidebar_section_content">
+
+    <ul class="categories_list">
+        @foreach (var loaiSPs in Model)
+        {
+            <li><a href="@Url.Action("ProductCategory", "Product", new { MaSP = loaiSPs.MaLoai })">@loaiSPs.TenLoai</a></li>
+        }
+    </ul>
+</div>
