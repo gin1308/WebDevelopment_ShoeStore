@@ -33,7 +33,6 @@ namespace PhatTrienWeb_Project_NguyenThanhLoc.Models
 		[MaxLength(11, ErrorMessage = "Please enter a valid phone number. It must be 11 numbers.")]
 		public string PhoneNumber { get; set; }
 
-		[Required]
 		public string Address { get; set; }
 	}
 

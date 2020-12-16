@@ -169,11 +169,13 @@
             <div>
                 <label for="DateOfBirth"><b>Date of Birth</b></label>
                 <input type="date" placeholder="Enter DoB" name="dateofbirth" id="dateofbirth">
+                @Html.ValidationMessageFor(m => m.ConfirmPassword, "", new { @class = "text-danger" })
             </div>
 
             <div>
                 <label for="PhoneNumber"><b>Phone Number</b></label>
                 <input type="tel" placeholder="Enter Phone Number" name="phonenumber" id="phonenumber">
+                @Html.ValidationMessageFor(m => m.ConfirmPassword, "", new { @class = "text-danger" })
             </div>
 
             <div>

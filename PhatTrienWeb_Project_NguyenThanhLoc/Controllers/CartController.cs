@@ -15,7 +15,7 @@ namespace PhatTrienWeb_Project_NguyenThanhLoc.Controllers
 		// GET: Cart
 		public ActionResult Index()
 		{
-			var cart = Session[CartSession];
+			var cart = Session["CartSession"];
 			var list = new List<Item>();
 			if (cart != null)
 			{
@@ -44,21 +44,27 @@ namespace PhatTrienWeb_Project_NguyenThanhLoc.Controllers
 				}
 				else
 				{
-					var item = new Item();
-					item.Product = product;
-					item.Quantity = quantity;
+					var item = new Item
+					{
+						Product = product,
+						Quantity = quantity
+					};
 					list.Add(item);
 				}
 				Session[CartSession] = list;
 			}
 			else
 			{
-				var item = new Item();
-				item.Product = product;
-				item.Quantity = quantity;
+				var item = new Item
+				{
+					Product = product,
+					Quantity = quantity
+				};
 
-				var list = new List<Item>();
-				list.Add(item);
+				var list = new List<Item>
+				{
+					item
+				};
 				Session[CartSession] = list;
 			}
 			return RedirectToAction("Index");
@@ -110,7 +116,7 @@ namespace PhatTrienWeb_Project_NguyenThanhLoc.Controllers
 		public ActionResult DeleteItem(int productID)
 		{
 			List<Item> cart = (List<Item>)Session["CartSession"];
-			int index = isExist(productID);
+			int index = IsExist(productID);
 			cart.RemoveAt(index);
 			Session["CartSession"] = cart;
 			return RedirectToAction("Index");
@@ -125,54 +131,72 @@ namespace PhatTrienWeb_Project_NguyenThanhLoc.Controllers
 			});
 		}
 
-		private int isExist(int productID)
+		private int IsExist(int productID)
 		{
 			List<Item> cart = (List<Item>)Session["CartSession"];
 			for (int i = 0; i < cart.Count; i++)
 				if (cart[i].Product.MaSP.Equals(productID))
+				{
 					return i;
+				}
 			return -1;
 		}
 
 		public ActionResult Payment()
 		{
-			var cart = Session[CartSession];
-			var list = new List<Item>();
-			if (cart != null)
+			if (Session["Haha"] != null)
 			{
-				list = (List<Item>)cart;
+				var cart = Session["CartSession"];
+				var list = new List<Item>();
+				if (cart != null)
+				{
+					list = (List<Item>)cart;
+				}
+				return View(list);
 			}
-			return View(list);
+			else
+			{
+				return View("Fail");
+			}
 		}
 		[HttpPost]
 		public ActionResult Payment(OrderModels model)
 		{
-			List<Item> cart = Session["CartSession"] as List<Item>;
-			Model1 db = new Model1();
-			Order order = new Order
+			if (Session["Haha"] != null)
 			{
-				NgayTao = DateTime.Now,
-				TenKH_Ship = model.ShipName,
-				SoDT_Ship = model.ShipTel,
-				DiaChi_Ship = model.ShipAddress
-			};
-			db.Orders.Add(order);
-			db.SaveChanges();
+				List<Item> cart = Session["CartSession"] as List<Item>;
+				Model1 db = new Model1();
 
-			foreach (Item item in cart)
-			{
-				ChiTietOrder orderDetail = new ChiTietOrder()
+				Order order = new Order
 				{
-					Order_ID = order.ID,
-					MaSP = item.Product.MaSP,				
-					SoLuong = item.Quantity,
-					Gia = item.Product.Gia * item.Quantity,				
+					NgayTao = DateTime.Now,
+					TenKH_Ship = model.ShipName,
+					SoDT_Ship = model.ShipTel,
+					DiaChi_Ship = model.ShipAddress,
 				};
-				db.ChiTietOrders.Add(orderDetail);
+				db.Orders.Add(order);
 				db.SaveChanges();
+
+				foreach (Item item in cart)
+				{
+					ChiTietOrder orderDetail = new ChiTietOrder
+					{
+						Order_ID = order.ID,
+						MaSP = item.Product.MaSP,
+						SoLuong = item.Quantity,
+						Gia = item.Product.Gia * item.Quantity,
+					};
+					db.ChiTietOrders.Add(orderDetail);
+					db.SaveChanges();
+				}
+				Session.Remove(CartSession);
+				return View("OrderStatus");
 			}
-			Session.Remove(CartSession);
-			return View("OrderStatus");
+			else
+			{
+
+				return View("Fail");
+			}
 		}
 	}
 }

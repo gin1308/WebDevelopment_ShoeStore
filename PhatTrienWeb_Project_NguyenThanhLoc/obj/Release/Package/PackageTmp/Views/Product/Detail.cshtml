@@ -99,7 +99,7 @@
                 <td>@Model.SoLuong</td>
             </tr>
             <tr>
-                <td height="30"><a href="@Url.Action("AddItem", "Cart", new { productID = Model.MaSP, image = Model.Anh, quantity = 1, name = Model.TenSP, price = Model.Gia })" class="glyphicon-shopping-cart">Add to Cart</a></td>
+                <td height="30"><a href="@Url.Action("AddItem", "Cart", new { productID = Model.MaSP, Quantity = 1 })" class="glyphicon-shopping-cart">Add to Cart</a></td>
                 <td><a href="@Url.Action("Index", "Home")">Back to list</a></td>
             </tr>
         </table>

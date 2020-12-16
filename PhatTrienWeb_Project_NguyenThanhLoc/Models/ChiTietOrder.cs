@@ -23,5 +23,6 @@ namespace PhatTrienWeb_Project_NguyenThanhLoc.Models
 
         public double? Gia { get; set; }
 
+		public int? TongTien { get; set; }
 	}
 }

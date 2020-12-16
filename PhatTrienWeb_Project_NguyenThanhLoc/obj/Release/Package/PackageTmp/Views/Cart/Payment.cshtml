@@ -1,5 +1,4 @@
-﻿
-@{
+﻿@{
     ViewBag.Title = "Payment";
 }
 
@@ -69,158 +68,105 @@
 
 @model List<PhatTrienWeb_Project_NguyenThanhLoc.Models.Item>
 
-<h2>Shopping Cart</h2>
+<h2>Checkout</h2>
 
 <div class="content_section">
-    @if (Model == null || Model.Count == 0)
-    {
-        <br />
-        <h3 style="font-size: medium; text-align: center; color: red">You do not have any products in your Shopping Cart.</h3>
-    }
-    else
-    {
-        <table id="table">
-            <thead>
-                <tr>
-                    <td><b>ID Product</b></td>
-                    <td><b>Image</b></td>
-                    <td><b>Name Product</b></td>
-                    <td><b>Quantity</b></td>
-                    <td><b>Price</b></td>
-                    <td><b>Total Price</b></td>
-                </tr>
-            </thead>
 
-            <tbody>
-                @foreach (var item in Model)
-                {
-                    <tr>
-                        <td>@item.Product.MaSP</td>
-                        <td><img style="width:120px; height:80px" src="@item.Product.Anh" /></td>
-                        <td>@item.Product.TenSP</td>
-                        <td><input type="number" class="updateItem" data-id="@item.Product.MaSP" value="@item.Quantity" style="width: 35px; text-align: center" /></td>
-                        <td>@item.Product.Gia$</td>
-                        <td>@((item.Product.Gia * item.Quantity))$</td>
-                        <td style="border:none"><a href="@Url.Action("DeleteItem", "Cart", new { productID = item.Product.MaSP })" class="deleteItem" data-id="@item.Product.MaSP" style="color:red">Delete</a></td>
-                    </tr>
-                }
-            </tbody>
-        </table>
 
-        <div style="float:right">
-            <hr />
-            <span style="font-size:medium"><b style="color:red">Total Cost: @Model.Sum(x => (x.Product.Gia * x.Quantity))$</b></span>
-            <button class="button" id="btnPayment">Payment</button>
+    <div class="container">
+
+        <h4>Cart <span class="price" style="color:black"><i class="fa fa-shopping-cart"></i> <b>@Model.Sum(x => x.Quantity)</b></span></h4>
+        @foreach (var item in Model)
+        {
+            <p><span style="color:#128EB5; font:bold">@item.Product.TenSP (Quantity: @item.Quantity)</span> <span class="price">@((item.Product.Gia * item.Quantity))$</span></p>
+
+        }
+        <hr>
+        <p>Total <span class="price" style="color:black"><b>@Model.Sum(x => (x.Product.Gia * x.Quantity))$</b></span></p>
+
+    </div>
+
+    <br />
+
+    @using (Html.BeginForm("Payment", "Cart", FormMethod.Post))
+    {
+        <div class="container">
+            <form>
+                <div class="row">
+                    <div class="col-50">
+                        <h3>Billing Address</h3>
+                        <label><i class="fa fa-user"></i>Recipent's Name</label>
+                        <input type="text" name="ShipName">
+
+                        <label><i class="fa fa-envelope"></i>Recipent's Tel</label>
+                        <input type="tel" name="ShipTel">
+
+                        <label><i class="fa fa-address-card-o"></i>Recipent's Address</label>
+                        <input type="text" name="ShipAddress">
+                    </div>
+
+                </div>
+                <input type="submit" value="Continue to checkout" class="btn">
+            </form>
         </div>
     }
 
     <div class="cleaner"></div>
-
-    @using (Html.BeginForm("Payment", "Cart", FormMethod.Post))
-    {
-        
-        <div class="container">
-
-            <hr>
-            <h3 style="text-align:center">YOUR PERSONAL INFORMATION</h3>
-
-            <div>
-                <label for="ShipName"><b>Recipent's Name</b></label>
-                <input type="text" name="ShipName" required>
-            </div>
-
-            <div>
-                <label><b>Recipent's Tel</b></label>
-                <input type="tel" name="ShipTel" required>
-            </div>
-
-            <div>
-                <label><b>Recipent's Address</b></label>
-                <input type="text" name="ShipAddress" required>
-            </div>
-
-            <button type="submit" class="btn">OK</button>
-        </div>
-    }
 </div>
 
 <style>
-    a {
-        cursor: pointer;
-    }
-
-    .input {
-        width: 100%
-    }
-
-    #table {
-        font-family: Arial, Helvetica, sans-serif;
-        border-collapse: collapse;
-        width: 100%;
-        text-align: center
-    }
-
-        #table td, #table th {
-            border: 1px solid #ddd;
-            padding: 8px;
-        }
-
-        #table th {
-            padding-top: 12px;
-            padding-bottom: 12px;
-            text-align: left;
-            background-color: #4CAF50;
-            color: white;
-        }
-
-    .button {
-        background-color: #128EB5;
-        border: none;
-        color: white;
-        padding: 5px 15px;
-        text-align: center;
-        font-size: 16px;
-        cursor: pointer;
-    }
-
-    /* Add padding to containers */
-    .text-danger {
-        color: red;
-    }
-
     .container {
-        padding: 15px;
-        background-color: white;
+        background-color: #f2f2f2;
+        padding: 5px 20px 15px 20px;
+        border: 1px solid lightgrey;
+        border-radius: 3px;
     }
 
-    /* Full-width input fields */
-    input[type=text], input[type=tel] {
-        width: 96%;
-        padding: 10px;
-        margin: 5px 0 10px 0;
-        display: inline-block;
+    input {
+        width: 95%;
+        margin-bottom: 20px;
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
     }
 
-    /* Overwrite default styles of hr */
-    hr {
-        border: 1px solid #f1f1f1;
-        margin-bottom: 25px;
+    label {
+        margin-bottom: 10px;
+        display: block;
     }
 
-    /* Set a style for the submit button */
+    .icon-container {
+        margin-bottom: 20px;
+        padding: 7px 0;
+        font-size: 24px;
+    }
+
     .btn {
         background-color: #128EB5;
         color: white;
-        padding: 10px 10px;
-        margin: 8px 0;
+        padding: 12px;
+        margin: 10px 0;
         border: none;
-        cursor: pointer;
         width: 100%;
-        opacity: 0.9;
+        border-radius: 3px;
+        cursor: pointer;
+        font-size: 17px;
     }
 
         .btn:hover {
-            opacity: 1;
-        }
-</style>
+            background-color: #128EB5;
+        } 
 
+    hr {
+        border: 1px solid lightgrey;
+    }
+
+    span.price {
+        float: right;
+        color: grey;
+    }
+
+    .col-25 {
+        margin-bottom: 20px;
+    }
+</style>
