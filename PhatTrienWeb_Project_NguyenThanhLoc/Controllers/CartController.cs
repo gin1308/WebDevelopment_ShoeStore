@@ -156,7 +156,7 @@ namespace PhatTrienWeb_Project_NguyenThanhLoc.Controllers
 			}
 			else
 			{
-				return View("Fail");
+				return RedirectToAction("Login", "User");
 			}
 		}
 		[HttpPost]
@@ -194,8 +194,7 @@ namespace PhatTrienWeb_Project_NguyenThanhLoc.Controllers
 			}
 			else
 			{
-
-				return View("Fail");
+				return RedirectToAction("Login", "User");
 			}
 		}
 	}
