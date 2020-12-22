@@ -170,10 +170,10 @@
                         <td>@item.Product.MaSP</td>
                         <td><img style="width:120px; height:80px" src="@item.Product.Anh" /></td>
                         <td>@item.Product.TenSP</td>
-                        <td><input type="number" class="updateItem" data-id="@item.Product.MaSP" value="@item.Quantity" style="width: 35px; text-align: center" /></td>
+                        <td><input type="number" class="updateItem" min="1" data-id="@item.Product.MaSP" value="@item.Quantity" style="width: 35px; text-align: center" /></td>
                         <td>@item.Product.Gia$</td>
                         <td>@((item.Product.Gia * item.Quantity))$</td>
-                        <td style="border:none"><a href="@Url.Action("DeleteItem", "Cart", new { productID = item.Product.MaSP })" class="deleteItem" data-id="@item.Product.MaSP" style="color:red">Delete</a></td>
+                        <td style="border:none"><a href="@Url.Action("DeleteItem", "Cart", new { productID = item.Product.MaSP })" class="deleteItem" data-id="@item.Product.MaSP" style="color:red" onclick="return confirm('Are you sure to delete this item?')">Delete</a></td>
                     </tr>
                 }
             </tbody>
@@ -183,8 +183,8 @@
 
         <div style="float:right">
             <button class="button" id="btnContinue">Continue To Buy</button>
-            <button class="button" id="btnUpdate">Update Cart</button>
-            <button class="button" id="btnDeleteAll">Delete All</button>
+            <button class="button" id="btnUpdate" onclick="return alert('Update successful!')">Update Cart</button>
+            <button class="button" id="btnDeleteAll" onclick="return confirm('Are you sure to delete all item?')">Delete All</button>
         </div>
 
         <br />

@@ -1,0 +1,35 @@
+﻿<div class="content_section">
+
+    <h2>Best Seller</h2>
+
+    <div class="cleaner"></div>
+
+    @model List<PhatTrienWeb_Project_NguyenThanhLoc.Models.SanPham>
+
+    @for (int i = 0; i < Model.Count; i = i + 1)
+    {
+        if (i % 2 == 0)
+        {
+            <div class="product_box margin_r40">
+
+                <div class="image_wrapper"><a href="@Url.Action("Detail", "Product", new { MaSP = Model[i].MaSP })"><img style="width:240px; height:120px" src="@Model[i].Anh" alt="product" /></a></div>
+                <h3>@Model[i].TenSP</h3>
+                <p class="price">Price: @Model[i].Gia $</p>
+                <a href="@Url.Action("Detail", "Product", new { MaSP = Model[i].MaSP })">Detail</a> | <a href="@Url.Action("AddItem", "Cart", new { productID = Model[i].MaSP, Quantity = 1 })">Buy Now</a>
+
+            </div>
+        }
+        else
+        {
+            <div class="product_box">
+
+                <div class="image_wrapper"><a href="@Url.Action("Detail", "Product", new { MaSP = Model[i].MaSP })"><img style="width:240px; height:120px" src="@Model[i].Anh" alt="product" /></a></div>
+                <h3>@Model[i].TenSP</h3>
+                <p class="price">Price: @Model[i].Gia $</p>
+                <a href="@Url.Action("Detail", "Product", new { MaSP = Model[i].MaSP })">Detail</a> | <a href="@Url.Action("AddItem", "Cart", new { productID = Model[i].MaSP, Quantity = 1 })">Buy Now</a>
+
+            </div>
+        }
+    }
+    <div class="cleaner"></div>
+</div>

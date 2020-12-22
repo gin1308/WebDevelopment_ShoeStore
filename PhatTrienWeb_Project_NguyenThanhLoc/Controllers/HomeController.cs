@@ -36,5 +36,12 @@ namespace PhatTrienWeb_Project_NguyenThanhLoc.Controllers
 			List<LoaiSP> loaiSPs = model1.LoaiSPs.ToList();
 			return PartialView(loaiSPs);
 		}
+
+		public ActionResult SaleProduct()
+		{
+			Model1 model1 = new Model1();
+			List<SanPham> salePro = (from sale in model1.SanPhams where sale.GiamGia == 1 select sale).ToList();
+			return PartialView(salePro);
+		}
 	}
 }

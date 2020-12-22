@@ -71,25 +71,22 @@
 <h2>Checkout</h2>
 
 <div class="content_section">
-
-
-    <div class="container">
-
-        <h4>Cart <span class="price" style="color:black"><i class="fa fa-shopping-cart"></i> <b>@Model.Sum(x => x.Quantity)</b></span></h4>
-        @foreach (var item in Model)
-        {
-            <p><span style="color:#128EB5; font:bold">@item.Product.TenSP (Quantity: @item.Quantity)</span> <span class="price">@((item.Product.Gia * item.Quantity))$</span></p>
-
-        }
-        <hr>
-        <p>Total <span class="price" style="color:black"><b>@Model.Sum(x => (x.Product.Gia * x.Quantity))$</b></span></p>
-
-    </div>
-
-    <br />
-
     @using (Html.BeginForm("Payment", "Cart", FormMethod.Post))
     {
+        <div class="container">
+            <h4>Cart <span class="price" style="color:black"><i class="fa fa-shopping-cart"></i> <b>@Model.Sum(x => x.Quantity)</b></span></h4>
+            @foreach (var item in Model)
+            {
+                <p><span style="color:#128EB5; font:bold">@item.Product.TenSP (Quantity: @item.Quantity)</span> <span class="price">@((item.Product.Gia * item.Quantity))$</span></p>
+
+            }
+            <hr>
+            <input id="total" name="total" class="price" style="color:black" value="@Model.Sum(x => (x.Product.Gia * x.Quantity))" disabled/>
+
+        </div>
+
+        <br />
+
         <div class="container">
             <form>
                 <div class="row">
@@ -106,11 +103,10 @@
                     </div>
 
                 </div>
-                <input type="submit" value="Continue to checkout" class="btn">
+                <input type="submit" value="Continue to checkout" class="btn" onclick="return confirm('Are you sure to submit?')">
             </form>
         </div>
     }
-
     <div class="cleaner"></div>
 </div>
 
@@ -155,7 +151,7 @@
 
         .btn:hover {
             background-color: #128EB5;
-        } 
+        }
 
     hr {
         border: 1px solid lightgrey;

@@ -27,6 +27,6 @@ namespace PhatTrienWeb_Project_NguyenThanhLoc.Controllers
 			Model1 model1 = new Model1();
 			List<SanPham> ProductCategory = model1.SanPhams.Where(p => p.MaLoai == MaSP).ToList();
 			return View(ProductCategory);
-		}
+		}	
 	}
 }

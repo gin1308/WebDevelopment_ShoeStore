@@ -173,6 +173,7 @@ namespace PhatTrienWeb_Project_NguyenThanhLoc.Controllers
 					TenKH_Ship = model.ShipName,
 					SoDT_Ship = model.ShipTel,
 					DiaChi_Ship = model.ShipAddress,
+					TrangThai = model.total
 				};
 				db.Orders.Add(order);
 				db.SaveChanges();
@@ -184,18 +185,26 @@ namespace PhatTrienWeb_Project_NguyenThanhLoc.Controllers
 						Order_ID = order.ID,
 						MaSP = item.Product.MaSP,
 						SoLuong = item.Quantity,
-						Gia = item.Product.Gia * item.Quantity,
+						Gia = item.Product.Gia * item.Quantity,					
 					};
 					db.ChiTietOrders.Add(orderDetail);
 					db.SaveChanges();
+					
 				}
 				Session.Remove(CartSession);
-				return View("OrderStatus");
+				return RedirectToAction("OrderStatus", "Cart", new { id = order.ID });
 			}
 			else
 			{
 				return RedirectToAction("Login", "User");
 			}
+		}
+
+		public ActionResult OrderStatus(long id)
+		{
+			Model1 model = new Model1();
+			Order order = model.Orders.Find(id);
+			return View(order);
 		}
 	}
 }

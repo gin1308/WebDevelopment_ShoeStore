@@ -28,5 +28,7 @@ namespace PhatTrienWeb_Project_NguyenThanhLoc.Models
         public string Anh { get; set; }
 
         public int MaLoai { get; set; }
+
+		public int GiamGia { get; set; }
     }
 }

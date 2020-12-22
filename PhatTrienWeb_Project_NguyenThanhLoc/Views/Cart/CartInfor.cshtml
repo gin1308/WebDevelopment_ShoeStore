@@ -2,6 +2,13 @@
 
 <div class="sidebar_section_content">
     <ul class="categories_list">
-        <li><a>You have <b>@Model.Count products</b> in cart.</a></li>
+        @if (Model.Count < 2)
+        {
+            <li><a>You have <b>@Model.Count product</b> in cart.</a></li>
+        }
+        else
+        {
+            <li><a>You have <b>@Model.Count products</b> in cart.</a></li>
+        }
     </ul>
 </div>

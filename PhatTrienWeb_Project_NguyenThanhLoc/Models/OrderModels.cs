@@ -15,5 +15,7 @@ namespace PhatTrienWeb_Project_NguyenThanhLoc.Models
 		public string ShipTel { get; set; }
 		[Required]
 		public string ShipAddress { get; set; }
+
+		public int total { get; set; }
 	}
 }
